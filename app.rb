@@ -8,4 +8,5 @@ class Application < Sinatra::Base
   post '/greet' do
     erb :greet
   end
+  # New route to respond to the form submission- what they type 
 end
