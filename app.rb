@@ -4,4 +4,8 @@ class Application < Sinatra::Base
     erb :index
     #above says to render the HTML (deliver to user's browser)
   end
+  
+  post '/greet' do
+    erb :greet
+  end
 end
